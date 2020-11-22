@@ -16,12 +16,14 @@
 *:focus {
   outline: none;
 }
+
 html {
   height: fit-content;
   overflow: auto;
-
 }
+
 body {
+  height: fit-content;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -33,9 +35,4 @@ body {
   background-size: cover;
   background-position: fixed;
 
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }

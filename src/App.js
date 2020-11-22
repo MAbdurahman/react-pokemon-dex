@@ -1,13 +1,15 @@
 import React from 'react';
 import './App.css';
-import PokemonDeck from './components/pokemon-deck/PokemonDeck';
+
+import PokemonGame from './components/pokemon-game/PokemonGame';
 
 
 
 function App() {
 	return (
 		<div className='App'>
-      <PokemonDeck />
+      <h1 className='App__title'>Pokemon Game</h1>
+      <PokemonGame />
 		</div>
 	);
 }

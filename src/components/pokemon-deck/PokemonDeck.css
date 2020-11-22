@@ -1,7 +1,9 @@
 .PokemonDeck {
+max-height: 600px;
    margin: 0 auto;
    text-align: center;
 }
+
 
 .PokemonDeck__cards {
    margin: 0 auto;
@@ -13,4 +15,7 @@
    /* display: flex;
    justify-content: space-evenly;
    flex-wrap: wrap; */
+}
+.PokemonDeck__score {
+   font-size: 1.2rem
 }

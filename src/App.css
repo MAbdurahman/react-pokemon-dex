@@ -1,4 +1,9 @@
 .App {
+  height: 150%;
   text-align: center;
 }
 
+.App__title {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
