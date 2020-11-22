@@ -1,9 +1,15 @@
 .PokemonDeck {
-max-height: 600px;
    margin: 0 auto;
+   max-height: 400px;
+   height: 375px;
+   margin-bottom: -2em;
    text-align: center;
 }
 
+.Pokemon__winner,
+.Pokemon__loser {
+   margin-bottom: -1em;
+}
 
 .PokemonDeck__cards {
    margin: 0 auto;
@@ -16,6 +22,36 @@ max-height: 600px;
    justify-content: space-evenly;
    flex-wrap: wrap; */
 }
+
 .PokemonDeck__score {
    font-size: 1.2rem
+}
+
+.Pokemon__winner {
+   color: #16A07D;
+}
+.Pokemon__loser {
+   color: #A01639;
+}
+
+/*mobile landscape layout (480px to 767px) */
+@media only screen and (max-width: 768px) {
+   .PokemonDeck__cards {
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-column-gap: 1px;
+      grid-row-gap: 1px;
+      /* display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap; */
+   }
+}
+
+/*mobile portrait layout (479px or less) */
+@media only screen and (max-width: 679px) {
+   .PokemonDeck {
+      margin-bottom: 12em;
+   }
 }

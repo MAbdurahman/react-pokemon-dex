@@ -8,7 +8,7 @@ import PokemonGame from './components/pokemon-game/PokemonGame';
 function App() {
 	return (
 		<div className='App'>
-      <h1 className='App__title'>Pokemon Game</h1>
+      <h1 className='App__title'>Pokemon Best Hand</h1>
       <PokemonGame />
 		</div>
 	);

@@ -5,3 +5,23 @@
    grid-column-gap: 1px;
    grid-row-gap: 2px;
 }
+
+
+
+/*mobile landscape layout (480px to 767px) */
+@media only screen and (max-width: 768px) {
+   .PokemonGame {
+      height: 120vh;
+   }
+}
+
+/*mobile portrait layout (479px or less) */
+@media only screen and (max-width: 479px) {
+   .PokemonGame {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(4, 1fr);
+      grid-column-gap: 1px;
+      grid-row-gap: 1px;
+   }
+}
