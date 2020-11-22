@@ -18,9 +18,6 @@
    grid-template-rows: repeat(2, 1fr);
    grid-column-gap: 1px;
    grid-row-gap: 1px;
-   /* display: flex;
-   justify-content: space-evenly;
-   flex-wrap: wrap; */
 }
 
 .PokemonDeck__score {
@@ -34,7 +31,7 @@
    color: #A01639;
 }
 
-/*mobile landscape layout (480px to 767px) */
+/*mobile landscape layout (480px to 768px) */
 @media only screen and (max-width: 768px) {
    .PokemonDeck__cards {
       margin: 0 auto;
@@ -43,13 +40,11 @@
       grid-template-rows: repeat(2, 1fr);
       grid-column-gap: 1px;
       grid-row-gap: 1px;
-      /* display: flex;
-   justify-content: space-evenly;
-   flex-wrap: wrap; */
+
    }
 }
 
-/*mobile portrait layout (479px or less) */
+/*mobile portrait layout (679px or less) */
 @media only screen and (max-width: 679px) {
    .PokemonDeck {
       margin-bottom: 12em;

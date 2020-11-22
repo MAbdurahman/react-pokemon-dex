@@ -8,7 +8,7 @@
 
 
 
-/*mobile landscape layout (480px to 767px) */
+/*mobile landscape layout (480px to 768px) */
 @media only screen and (max-width: 768px) {
    .PokemonGame {
       height: 120vh;

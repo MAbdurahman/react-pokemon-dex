@@ -42,9 +42,7 @@
    display: inline-block;
    line-height: 1.42857143;
    vertical-align: middle;
-   /*background-color: #fff;
-   border: 1px solid #ddd;
-   */border-radius: 5px;
+   border-radius: 5px;
    -webkit-border-radius:5px;
    -moz-border-radius:5px;
    -ms-border-radius:5px;
@@ -64,8 +62,6 @@
 .PokemonCard img:hover {
    transform: scale(1.25);
 }
-
-
 
 .PokemonCard__data {
 

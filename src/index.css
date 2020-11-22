@@ -40,7 +40,7 @@ body {
 
 
 }
-/*mobile landscape layout (480px to 767px) */
+/*mobile landscape layout (480px to 768px) */
 @media only screen and (max-width: 768px) {
   body {
    height: 150vh;
@@ -54,7 +54,7 @@ body {
   }
   
 }
-/*mobile portrait layout (479px or less) */
+/*mobile portrait layout (375px or less) */
 @media only screen and (max-width: 375px) {
   body {
     height: 200vh;
