@@ -1,0 +1,16 @@
+.PokemonDeck {
+   margin: 0 auto;
+   text-align: center;
+}
+
+.PokemonDeck__cards {
+   margin: 0 auto;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-template-rows: repeat(2, 1fr);
+   grid-column-gap: 1px;
+   grid-row-gap: 1px;
+   /* display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap; */
+}
